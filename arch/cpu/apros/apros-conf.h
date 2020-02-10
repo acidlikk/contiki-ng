@@ -37,8 +37,8 @@
  * Header with configuration defines common to all CC13xx/CC26xx platforms
  */
 /*---------------------------------------------------------------------------*/
-#ifndef CC13XX_CC26XX_CONF_H_
-#define CC13XX_CC26XX_CONF_H_
+#ifndef APROS_CONF_H_
+#define APROS_CONF_H_
 /*---------------------------------------------------------------------------*/
 /**
  * \name Network Stack Configuration
@@ -212,6 +212,6 @@
 #endif
 /** @} */
 /*---------------------------------------------------------------------------*/
-#endif /* CC13XX_CC26XX_CONF_H_ */
+#endif /* APROS_CONF_H_ */
 /*---------------------------------------------------------------------------*/
 /** @} */

@@ -1,0 +1,8 @@
+CFLAGS += -DBOARD_SMARTRF06EB=1
+
+CONTIKI_TARGET_DIRS += ct
+
+BOARD_SOURCEFILES += platform.c
+
+### Signal that we can be programmed with cc2538-bsl
+BOARD_SUPPORTS_BSL=1
